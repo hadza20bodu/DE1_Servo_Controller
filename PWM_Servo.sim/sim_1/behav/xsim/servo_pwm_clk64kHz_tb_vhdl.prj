@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PWM_Servo.srcs/sources_1/new/clk64kHz.vhd" \
+"../../../../PWM_Servo.srcs/sources_1/new/servo_pwm.vhd" \
+"../../../../PWM_Servo.srcs/sources_1/new/top_level1.vhd" \
+"../../../../PWM_Servo.srcs/sim_1/new/servo_pwm_clk64kHz_tb.vhd" \
+
+# Do not sort compile order
+nosort

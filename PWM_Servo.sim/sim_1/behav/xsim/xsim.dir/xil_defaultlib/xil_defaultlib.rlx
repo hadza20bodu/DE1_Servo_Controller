@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sim_1/new/servo_pwm_clk64kHz_tb.vhd,1712834043,vhdl,,,,servo_pwm_clk64khz_tb,,,,,,,,
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/clk64kHz.vhd,1712833418,vhdl,,,,clk64khz,,,,,,,,
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/servo_control.vhd,1712232472,vhdl,,,,servo_control,,,,,,,,
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/servo_pwm.vhd,1712833576,vhdl,,,,servo_pwm,,,,,,,,
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/top_level.vhd,1712232584,vhdl,,,,top_level,,,,,,,,
+C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/top_level1.vhd,1712833877,vhdl,,,,servo_pwm_clk64khz,,,,,,,,
