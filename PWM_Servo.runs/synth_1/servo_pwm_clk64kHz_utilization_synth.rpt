@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Thu Apr 18 13:14:42 2024
+| Date         : Thu Apr 18 14:12:22 2024
 | Host         : LAPTOP-LJ5QP99P running 64-bit major release  (build 9200)
 | Command      : report_utilization -file servo_pwm_clk64kHz_utilization_synth.rpt -pb servo_pwm_clk64kHz_utilization_synth.pb
 | Design       : servo_pwm_clk64kHz
@@ -92,7 +92,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   15 |     0 |          0 |       210 |  7.14 |
+| Bonded IOB                  |   28 |     0 |          0 |       210 | 13.33 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         5 |  0.00 |
 | PHASER_REF                  |    0 |     0 |          0 |         5 |  0.00 |
@@ -149,12 +149,12 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDCE     |   22 |        Flop & Latch |
+| OBUF     |   15 |                  IO |
 | LUT6     |   14 |                 LUT |
-| IBUF     |   11 |                  IO |
+| IBUF     |   13 |                  IO |
+| LUT5     |   10 |                 LUT |
 | LUT2     |   10 |                 LUT |
-| LUT3     |    9 |                 LUT |
-| LUT5     |    6 |                 LUT |
-| OBUF     |    4 |                  IO |
+| LUT3     |    5 |                 LUT |
 | LUT4     |    4 |                 LUT |
 | LUT1     |    4 |                 LUT |
 | CARRY4   |    3 |          CarryLogic |

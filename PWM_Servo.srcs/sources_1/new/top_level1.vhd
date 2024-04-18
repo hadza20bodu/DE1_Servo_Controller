@@ -5,8 +5,10 @@ entity servo_pwm_clk64kHz is
     PORT(
         clk  : IN  STD_LOGIC;
         reset: IN  STD_LOGIC;
-        sw : in std_logic_vector(1 downto 0);
+        sw : in std_logic_vector(3 downto 0);   
         pos  : IN  STD_LOGIC_VECTOR(6 downto 0);
+        LED : out std_logic_vector(3 downto 0);
+        LED_P : out std_logic_vector(6 downto 0);
         servo_t: OUT STD_LOGIC_vector(3 downto 0)
     );
 end servo_pwm_clk64kHz;
@@ -45,8 +47,21 @@ begin
         servo => servo_out
     );
     
-  servo_t(0) <= servo_out when  sw = "01" else '0';
-  servo_t(1) <= servo_out when sw = "10" else '0';
-  servo_t(2) <= servo_out when sw = "11" else '0';
-  servo_t(3) <= servo_out when sw = "00" else '0';
+  LED(0) <= sw(0);
+  LED(1) <= sw(1);
+  LED(2) <= sw(2);
+  LED(3) <= sw(3);
+  
+  LED_P(0) <= pos(0);
+  LED_P(1) <= pos(1);
+  LED_P(2) <= pos(2);
+  LED_P(3) <= pos(3);
+  LED_P(4) <= pos(4);
+  LED_P(5) <= pos(5);
+  LED_P(6) <= pos(6);
+    
+  servo_t(0) <= servo_out when sw = "1000" else '0';
+  servo_t(1) <= servo_out when sw = "0100" else '0';
+  servo_t(2) <= servo_out when sw = "0010" else '0';
+  servo_t(3) <= servo_out when sw = "0001" else '0';
 end Behavioral;
