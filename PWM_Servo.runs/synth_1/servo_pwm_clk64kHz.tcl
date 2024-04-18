@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/247154/PWM_Servo/PWM_Servo.runs/synth_1/servo_pwm_clk64kHz.tcl"
+  variable script "C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.runs/synth_1/servo_pwm_clk64kHz.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,26 +70,26 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a50ticsg324-1L
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/247154/PWM_Servo/PWM_Servo.cache/wt [current_project]
-set_property parent.project_path C:/Users/247154/PWM_Servo/PWM_Servo.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.cache/wt [current_project]
+set_property parent.project_path C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
+set_property board_part_repo_paths {C:/Users/matys/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:nexys-a7-50t:part0:1.2 [current_project]
-set_property ip_output_repo c:/Users/247154/PWM_Servo/PWM_Servo.cache/ip [current_project]
+set_property ip_output_repo c:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/clk64kHz.vhd
-  C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/servo_pwm.vhd
-  C:/Users/247154/PWM_Servo/PWM_Servo.srcs/sources_1/new/top_level1.vhd
+  C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.srcs/sources_1/new/clk64kHz.vhd
+  C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.srcs/sources_1/new/servo_pwm.vhd
+  C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.srcs/sources_1/new/top_level1.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -100,8 +100,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/247154/PWM_Servo/PWM_Servo.srcs/constrs_1/new/nexys_A7_50T.xdc
-set_property used_in_implementation false [get_files C:/Users/247154/PWM_Servo/PWM_Servo.srcs/constrs_1/new/nexys_A7_50T.xdc]
+read_xdc C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.srcs/constrs_1/new/nexys_A7_50T.xdc
+set_property used_in_implementation false [get_files C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.srcs/constrs_1/new/nexys_A7_50T.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

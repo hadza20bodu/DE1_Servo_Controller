@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1712834989">
-  <File Type="BITSTR-BMM" Name="servo_pwm_clk64kHz_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="servo_pwm_clk64kHz_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_init.rpt"/>
+<GenRun Id="impl_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1713438800">
   <File Type="ROUTE-PWR" Name="servo_pwm_clk64kHz_power_routed.rpt"/>
   <File Type="PA-TCL" Name="servo_pwm_clk64kHz.tcl"/>
-  <File Type="OPT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="servo_pwm_clk64kHz_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="servo_pwm_clk64kHz_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="servo_pwm_clk64kHz_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="servo_pwm_clk64kHz_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="servo_pwm_clk64kHz.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="servo_pwm_clk64kHz_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="servo_pwm_clk64kHz_opt.dcp"/>
   <File Type="OPT-DRC" Name="servo_pwm_clk64kHz_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="servo_pwm_clk64kHz.hwdef"/>
   <File Type="PWROPT-DCP" Name="servo_pwm_clk64kHz_pwropt.dcp"/>
@@ -22,13 +23,16 @@
   <File Type="PLACE-CTRL" Name="servo_pwm_clk64kHz_control_sets_placed.rpt"/>
   <File Type="PLACE-SIMILARITY" Name="servo_pwm_clk64kHz_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="servo_pwm_clk64kHz_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="servo_pwm_clk64kHz_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="servo_pwm_clk64kHz_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="servo_pwm_clk64kHz.bin"/>
+  <File Type="PLACE-TIMING" Name="servo_pwm_clk64kHz_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="servo_pwm_clk64kHz_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="servo_pwm_clk64kHz_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="servo_pwm_clk64kHz_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="servo_pwm_clk64kHz.msk"/>
   <File Type="POSTPLACE-PWROPT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="servo_pwm_clk64kHz_physopt.dcp"/>
   <File Type="PHYSOPT-DRC" Name="servo_pwm_clk64kHz_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="servo_pwm_clk64kHz.msk"/>
+  <File Type="BITSTR-RBT" Name="servo_pwm_clk64kHz.rbt"/>
   <File Type="PHYSOPT-TIMING" Name="servo_pwm_clk64kHz_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="servo_pwm_clk64kHz_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="servo_pwm_clk64kHz_routed.dcp"/>
@@ -36,11 +40,10 @@
   <File Type="ROUTE-DRC" Name="servo_pwm_clk64kHz_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="servo_pwm_clk64kHz_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="servo_pwm_clk64kHz_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="servo_pwm_clk64kHz.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="servo_pwm_clk64kHz_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="servo_pwm_clk64kHz_methodology_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="servo_pwm_clk64kHz_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="servo_pwm_clk64kHz_power_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="servo_pwm_clk64kHz_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="servo_pwm_clk64kHz_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="servo_pwm_clk64kHz_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="servo_pwm_clk64kHz_timing_summary_routed.rpt"/>
@@ -57,12 +60,14 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="servo_pwm_clk64kHz_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="servo_pwm_clk64kHz_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="servo_pwm_clk64kHz_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="servo_pwm_clk64kHz_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="servo_pwm_clk64kHz.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="servo_pwm_clk64kHz_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="servo_pwm_clk64kHz_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="servo_pwm_clk64kHz.rbt"/>
   <File Type="BITSTR-NKY" Name="servo_pwm_clk64kHz.nky"/>
+  <File Type="BITSTR-BMM" Name="servo_pwm_clk64kHz_bd.bmm"/>
   <File Type="PDI-FILE" Name="servo_pwm_clk64kHz.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="servo_pwm_clk64kHz_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="servo_pwm_clk64kHz_pld.pdi"/>
   <File Type="RCFI_FILE" Name="servo_pwm_clk64kHz.rcfi"/>
   <File Type="CFI_FILE" Name="servo_pwm_clk64kHz.cfi"/>
   <File Type="RNPI_FILE" Name="servo_pwm_clk64kHz.rnpi"/>
@@ -75,6 +80,10 @@
   <File Type="BG-DRC" Name="servo_pwm_clk64kHz.drc"/>
   <File Type="RDI-RDI" Name="servo_pwm_clk64kHz.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="servo_pwm_clk64kHz_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="servo_pwm_clk64kHz_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/clk64kHz.vhd">
@@ -101,7 +110,7 @@
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/nexys_A7_50T.xdc">
       <FileInfo>
@@ -113,7 +122,7 @@
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
-  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>

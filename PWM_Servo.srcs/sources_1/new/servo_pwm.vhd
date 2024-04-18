@@ -31,6 +31,8 @@ begin
             end if;
         end if;
     end process;
+
+
     -- Output signal for the servomotor.
     servo <= '1' when (cnt < pwmi) else '0';
 end Behavioral;

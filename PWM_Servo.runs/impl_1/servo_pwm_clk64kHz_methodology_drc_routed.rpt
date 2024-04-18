@@ -1,8 +1,8 @@
-Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Thu Apr 11 13:31:14 2024
-| Host         : PC-628 running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Apr 18 13:16:23 2024
+| Host         : LAPTOP-LJ5QP99P running 64-bit major release  (build 9200)
 | Command      : report_methodology -file servo_pwm_clk64kHz_methodology_drc_routed.rpt -pb servo_pwm_clk64kHz_methodology_drc_routed.pb -rpx servo_pwm_clk64kHz_methodology_drc_routed.rpx
 | Design       : servo_pwm_clk64kHz
 | Device       : xc7a50ticsg324-1L
