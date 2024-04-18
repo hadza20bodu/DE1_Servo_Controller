@@ -1,12 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Apr 11 13:29:52 2024
-# Process ID: 2732
-# Current directory: C:/Users/247154/PWM_Servo/PWM_Servo.runs/synth_1
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr 18 13:13:26 2024
+# Process ID: 16044
+# Current directory: C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.runs/synth_1
 # Command line: vivado.exe -log servo_pwm_clk64kHz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source servo_pwm_clk64kHz.tcl
-# Log file: C:/Users/247154/PWM_Servo/PWM_Servo.runs/synth_1/servo_pwm_clk64kHz.vds
-# Journal file: C:/Users/247154/PWM_Servo/PWM_Servo.runs/synth_1\vivado.jou
+# Log file: C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.runs/synth_1/servo_pwm_clk64kHz.vds
+# Journal file: C:/Users/matys/DE1_Servo_Controller-main/PWM_Servo.runs/synth_1\vivado.jou
+# Running On: LAPTOP-LJ5QP99P, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16542 MB
 #-----------------------------------------------------------
 source servo_pwm_clk64kHz.tcl -notrace
